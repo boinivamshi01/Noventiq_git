@@ -3,6 +3,12 @@ def app():
 
 def sum(a, b):
     return a + b
+def visible():
+    print("This function is visible outside this module.")
+    
+def not_visible():
+    print("This function is not visible outside this module.") 
+
 
 def main():
     app()
