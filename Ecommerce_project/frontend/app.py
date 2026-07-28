@@ -26,6 +26,13 @@ def multiply_numbers(a, b):
     result = a * b
     print(f"The product of {a} and {b} is: {result}")   
 
+def divide_numbers(a, b):
+    if b != 0:
+        result = a / b
+        print(f"The division of {a} by {b} is: {result}")
+    else:
+        print("Error: Division by zero is not allowed.")
+
 if __name__ == "__main__":
     main()
     add_numbers(5, 10)
