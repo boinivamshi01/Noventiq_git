@@ -3,10 +3,10 @@ def app():
 
 def sum(a, b):
     return a + b
-def visible():
+def visibles():
     print("This function is visible outside this module.")
     
-def not_visible():
+def not_visibles():
     print("This function is not visible outside this module.") 
 
 
@@ -31,4 +31,3 @@ if __name__ == "__main__":
     add_numbers(5, 10)
     subtract_numbers(10, 5)
     multiply_numbers(5, 10)
-        
