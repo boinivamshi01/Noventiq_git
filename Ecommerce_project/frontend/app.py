@@ -26,6 +26,19 @@ def multiply_numbers(a, b):
     result = a * b
     print(f"The product of {a} and {b} is: {result}")   
 
+def not_started():
+    print("This function is not started yet.")
+
+def started():
+    print("This function has started.")
+    
+def divide_numbers(a, b):
+    if b != 0:
+        result = a / b
+        print(f"The division of {a} by {b} is: {result}")
+    else:
+        print("Error: Division by zero is not allowed.")
+
 def divide_numbers(a, b):
     if b == 0:
         print("Error: Division by zero is not allowed.")
