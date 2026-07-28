@@ -14,6 +14,9 @@ def main():
     app()
     print("Flask application" " is running.")
 
+def branch_a():
+    print("This is branch A.")
+
 def add_numbers(a, b):
     result = sum(a, b)
     print(f"The sum of {a} and {b} is: {result}")
