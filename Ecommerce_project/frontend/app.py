@@ -26,6 +26,12 @@ def multiply_numbers(a, b):
     result = a * b
     print(f"The product of {a} and {b} is: {result}")   
 
+def not_started():
+    print("This function is not started yet.")
+
+def started():
+    print("This function has started.")
+    
 if __name__ == "__main__":
     main()
     add_numbers(5, 10)
