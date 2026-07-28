@@ -26,8 +26,17 @@ def multiply_numbers(a, b):
     result = a * b
     print(f"The product of {a} and {b} is: {result}")   
 
+def divide_numbers(a, b):
+    if b == 0:
+        print("Error: Division by zero is not allowed.")
+        return None
+    result = a / b
+    print(f"The quotient of {a} and {b} is: {result}")
+    return result   
+
 if __name__ == "__main__":
     main()
     add_numbers(5, 10)
     subtract_numbers(10, 5)
     multiply_numbers(5, 10)
+    divide_numbers(10, 2)       
